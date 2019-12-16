@@ -1,2 +1,2 @@
-<a href="empform">Add Employee</a>
-<a href="viewemp">View Employees</a>
+<a href="empform">Adicionar funcionário</a>
+<a href="viewemp">Listar funcionários</a>

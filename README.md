@@ -9,7 +9,7 @@ Caio Boanova, Luiz Fernando Nai Ribeiro e Wesley Castelani.
 <h3>Tecnologias usadas:</h3>
 
 ```
-Trabalho desenvolvido em Java(Spring MVC), hospedado no serviço de cloud Heroku, com banco de dados MySQL.
+Trabalho desenvolvido em Java(Spring MVC)/JdbcTemplate, hospedado no serviço de cloud Heroku, com banco de dados MySQL.
 ```
 
 <h3>O que o app faz?</h3>

@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_NAqqcB-0EeqZTIBbWYNLhQ" name="RegistroFuncionarios">
+    <eAnnotations xmi:id="_Oc1GcB-0EeqZTIBbWYNLhQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_Oc1tgB-0EeqZTIBbWYNLhQ" source="codegen">
+        <details xmi:id="_Oc1tgR-0EeqZTIBbWYNLhQ" key="codegenDirectory" value="/SpringMVCCRUDSimple/src/main/java"/>
+        <details xmi:id="_PlBdkB-0EeqZTIBbWYNLhQ" key="AssociatedSourceCode" value="/SpringMVCCRUDSimple/src/main/java/com/javatpoint/dao/EmpDao.java;474129396/1;/SpringMVCCRUDSimple/src/main/java/com/javatpoint/controllers/EmpController.java;3458624021/1;/SpringMVCCRUDSimple/src/main/java/com/javatpoint/beans/Emp.java;2262671678/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_O3FZgB-0EeqZTIBbWYNLhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_O3FZgR-0EeqZTIBbWYNLhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_O3FZgh-0EeqZTIBbWYNLhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_O3FZgx-0EeqZTIBbWYNLhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_O3GAkB-0EeqZTIBbWYNLhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_O3GAkR-0EeqZTIBbWYNLhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_O3GAkh-0EeqZTIBbWYNLhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_O3GAkx-0EeqZTIBbWYNLhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_O3GnoB-0EeqZTIBbWYNLhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_O2LakB-0EeqZTIBbWYNLhQ" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_O2MBoB-0EeqZTIBbWYNLhQ" name="javatpoint">
+        <packagedElement xmi:type="uml:Package" xmi:id="_O2SIQB-0EeqZTIBbWYNLhQ" name="beans">
+          <packagedElement xmi:type="uml:Class" xmi:id="_O3iFcB-0EeqZTIBbWYNLhQ" name="Emp">
+            <ownedAttribute xmi:id="_PJeKAB-0EeqZTIBbWYNLhQ" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_PJexEB-0EeqZTIBbWYNLhQ" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_PJfYIB-0EeqZTIBbWYNLhQ" name="salary">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_PJf_MB-0EeqZTIBbWYNLhQ" name="designation">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_O2aEEB-0EeqZTIBbWYNLhQ" name="dao">
+          <packagedElement xmi:type="uml:Class" xmi:id="_O2-r0B-0EeqZTIBbWYNLhQ" name="EmpDao">
+            <ownedAttribute xmi:id="_PJafoB-0EeqZTIBbWYNLhQ" name="template" visibility="package" type="_PIvKMR-0EeqZTIBbWYNLhQ" association="_PKCxwB-0EeqZTIBbWYNLhQ"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PJv20B-0EeqZTIBbWYNLhQ" name="setTemplate" specification="_PJQHkB-0EeqZTIBbWYNLhQ">
+              <ownedParameter xmi:id="_PJv20R-0EeqZTIBbWYNLhQ" name="template" type="_PIvKMR-0EeqZTIBbWYNLhQ"/>
+              <language>java</language>
+              <body>this.template = template;  &#xD;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PJzhMB-0EeqZTIBbWYNLhQ" name="save" specification="_PIy0kB-0EeqZTIBbWYNLhQ">
+              <ownedParameter xmi:id="_PJzhMR-0EeqZTIBbWYNLhQ" name="p" type="_O3iFcB-0EeqZTIBbWYNLhQ"/>
+              <ownedParameter xmi:id="_PJzhMh-0EeqZTIBbWYNLhQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>String sql=&quot;insert into Emp99(name,salary,designation) values('&quot;+p.getName()+&quot;',&quot;+p.getSalary()+&quot;,'&quot;+p.getDesignation()+&quot;')&quot;;  &#xD;
+ return template.update(sql);  &#xD;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PJ0IQB-0EeqZTIBbWYNLhQ" name="update" specification="_PI0CsB-0EeqZTIBbWYNLhQ">
+              <ownedParameter xmi:id="_PJ0IQR-0EeqZTIBbWYNLhQ" name="p" type="_O3iFcB-0EeqZTIBbWYNLhQ"/>
+              <ownedParameter xmi:id="_PJ0IQh-0EeqZTIBbWYNLhQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>String sql=&quot;update Emp99 set name='&quot;+p.getName()+&quot;', salary=&quot;+p.getSalary()+&quot;,designation='&quot;+p.getDesignation()+&quot;' where id=&quot;+p.getId()+&quot;&quot;;  &#xD;
+ return template.update(sql);  &#xD;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PJ0vUB-0EeqZTIBbWYNLhQ" name="delete" specification="_O3Ic0B-0EeqZTIBbWYNLhQ">
+              <ownedParameter xmi:id="_PJ0vUR-0EeqZTIBbWYNLhQ" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_PJ0vUh-0EeqZTIBbWYNLhQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>String sql=&quot;delete from Emp99 where id=&quot;+id+&quot;&quot;;  &#xD;
+ return template.update(sql);  &#xD;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PJ1WYB-0EeqZTIBbWYNLhQ" name="getEmpById" specification="_O3LgIB-0EeqZTIBbWYNLhQ">
+              <ownedParameter xmi:id="_PJ1WYR-0EeqZTIBbWYNLhQ" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_PJ1WYh-0EeqZTIBbWYNLhQ" type="_O3iFcB-0EeqZTIBbWYNLhQ" direction="return"/>
+              <language>java</language>
+              <body>String sql=&quot;select * from Emp99 where id=?&quot;;  &#xD;
+ return template.queryForObject(sql, new Object[]{id},new BeanPropertyRowMapper&lt;Emp>(Emp.class));  &#xD;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PJ19cB-0EeqZTIBbWYNLhQ" name="getEmployees" specification="_O3NVUB-0EeqZTIBbWYNLhQ">
+              <ownedParameter xmi:id="_PJ19cR-0EeqZTIBbWYNLhQ" type="_O3iFcB-0EeqZTIBbWYNLhQ" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PJ19ch-0EeqZTIBbWYNLhQ" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return template.query(&quot;select * from Emp99&quot;,new RowMapper&lt;Emp>(){  &#xD;
+     public Emp mapRow(ResultSet rs, int row) throws SQLException {  &#xD;
+         Emp e=new Emp();  &#xD;
+         e.setId(rs.getInt(1));  &#xD;
+         e.setName(rs.getString(2));  &#xD;
+         e.setSalary(rs.getFloat(3));  &#xD;
+         e.setDesignation(rs.getString(4));  &#xD;
+         return e;  &#xD;
+     }  &#xD;
+ });  &#xD;
+</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_O3Ic0B-0EeqZTIBbWYNLhQ" name="delete" method="_PJ0vUB-0EeqZTIBbWYNLhQ">
+              <ownedParameter xmi:id="_O3JD4B-0EeqZTIBbWYNLhQ" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_O3KSAB-0EeqZTIBbWYNLhQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_O3LgIB-0EeqZTIBbWYNLhQ" name="getEmpById" method="_PJ1WYB-0EeqZTIBbWYNLhQ">
+              <ownedParameter xmi:id="_O3LgIR-0EeqZTIBbWYNLhQ" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_PI1Q0B-0EeqZTIBbWYNLhQ" type="_O3iFcB-0EeqZTIBbWYNLhQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_O3NVUB-0EeqZTIBbWYNLhQ" name="getEmployees" method="_PJ19cB-0EeqZTIBbWYNLhQ">
+              <ownedParameter xmi:id="_O3N8YB-0EeqZTIBbWYNLhQ" type="_O3iFcB-0EeqZTIBbWYNLhQ" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O3N8YR-0EeqZTIBbWYNLhQ" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_PIy0kB-0EeqZTIBbWYNLhQ" name="save" method="_PJzhMB-0EeqZTIBbWYNLhQ">
+              <ownedParameter xmi:id="_PIzboB-0EeqZTIBbWYNLhQ" name="p" type="_O3iFcB-0EeqZTIBbWYNLhQ"/>
+              <ownedParameter xmi:id="_PIzboR-0EeqZTIBbWYNLhQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_PI0CsB-0EeqZTIBbWYNLhQ" name="update" method="_PJ0IQB-0EeqZTIBbWYNLhQ">
+              <ownedParameter xmi:id="_PI0CsR-0EeqZTIBbWYNLhQ" name="p" type="_O3iFcB-0EeqZTIBbWYNLhQ"/>
+              <ownedParameter xmi:id="_PI0Csh-0EeqZTIBbWYNLhQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_PJQHkB-0EeqZTIBbWYNLhQ" name="setTemplate" method="_PJv20B-0EeqZTIBbWYNLhQ">
+              <ownedParameter xmi:id="_PJQuoB-0EeqZTIBbWYNLhQ" name="template" type="_PIvKMR-0EeqZTIBbWYNLhQ"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_PKCxwB-0EeqZTIBbWYNLhQ" name="" memberEnd="_PKCxwR-0EeqZTIBbWYNLhQ _PJafoB-0EeqZTIBbWYNLhQ">
+            <ownedEnd xmi:id="_PKCxwR-0EeqZTIBbWYNLhQ" name="" type="_O2-r0B-0EeqZTIBbWYNLhQ" association="_PKCxwB-0EeqZTIBbWYNLhQ"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_O2rw4B-0EeqZTIBbWYNLhQ" name="controllers">
+          <packagedElement xmi:type="uml:Class" xmi:id="_O3SN0B-0EeqZTIBbWYNLhQ" name="EmpController">
+            <ownedAttribute xmi:id="_PJcU0B-0EeqZTIBbWYNLhQ" name="dao" visibility="package" type="_O2-r0B-0EeqZTIBbWYNLhQ" association="_PKEm8R-0EeqZTIBbWYNLhQ"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PJ2kgB-0EeqZTIBbWYNLhQ" name="showform" specification="_PJR8wB-0EeqZTIBbWYNLhQ">
+              <ownedParameter xmi:id="_PJ2kgR-0EeqZTIBbWYNLhQ" name="m" type="_PI8lkB-0EeqZTIBbWYNLhQ"/>
+              <ownedParameter xmi:id="_PJ2kgh-0EeqZTIBbWYNLhQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>m.addAttribute(&quot;command&quot;, new Emp());&#xD;
+ 	return &quot;empform&quot;; &#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PJ2kgx-0EeqZTIBbWYNLhQ" name="save" specification="_PJFIcB-0EeqZTIBbWYNLhQ">
+              <ownedParameter xmi:id="_PJ3LkB-0EeqZTIBbWYNLhQ" name="emp" type="_O3iFcB-0EeqZTIBbWYNLhQ"/>
+              <ownedParameter xmi:id="_PJ3LkR-0EeqZTIBbWYNLhQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>dao.save(emp);  &#xD;
+     return &quot;redirect:/viewemp&quot;;//will redirect to viewemp request mapping  &#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PJ3Lkh-0EeqZTIBbWYNLhQ" name="viewemp" specification="_PJVAEB-0EeqZTIBbWYNLhQ">
+              <ownedParameter xmi:id="_PJ3Lkx-0EeqZTIBbWYNLhQ" name="m" type="_PI8lkB-0EeqZTIBbWYNLhQ"/>
+              <ownedParameter xmi:id="_PJ3LlB-0EeqZTIBbWYNLhQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>List&lt;Emp> list=dao.getEmployees();  &#xD;
+     m.addAttribute(&quot;list&quot;,list);&#xD;
+     return &quot;viewemp&quot;;  &#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PJ3yoB-0EeqZTIBbWYNLhQ" name="edit" specification="_PJW1QR-0EeqZTIBbWYNLhQ">
+              <ownedParameter xmi:id="_PJ3yoR-0EeqZTIBbWYNLhQ" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_PJ3yoh-0EeqZTIBbWYNLhQ" name="m" type="_PI8lkB-0EeqZTIBbWYNLhQ"/>
+              <ownedParameter xmi:id="_PJ3yox-0EeqZTIBbWYNLhQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>Emp emp=dao.getEmpById(id);  &#xD;
+     m.addAttribute(&quot;command&quot;,emp);&#xD;
+     return &quot;empeditform&quot;;  &#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PJ4ZsB-0EeqZTIBbWYNLhQ" name="editsave" specification="_PJILwB-0EeqZTIBbWYNLhQ">
+              <ownedParameter xmi:id="_PJ4ZsR-0EeqZTIBbWYNLhQ" name="emp" type="_O3iFcB-0EeqZTIBbWYNLhQ"/>
+              <ownedParameter xmi:id="_PJ4Zsh-0EeqZTIBbWYNLhQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>dao.update(emp);  &#xD;
+     return &quot;redirect:/viewemp&quot;;  &#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PJ5AwB-0EeqZTIBbWYNLhQ" name="delete" specification="_O3XtYB-0EeqZTIBbWYNLhQ">
+              <ownedParameter xmi:id="_PJ5AwR-0EeqZTIBbWYNLhQ" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_PJ5Awh-0EeqZTIBbWYNLhQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>dao.delete(id);  &#xD;
+     return &quot;redirect:/viewemp&quot;;  &#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_O3XtYB-0EeqZTIBbWYNLhQ" name="delete" method="_PJ5AwB-0EeqZTIBbWYNLhQ">
+              <ownedParameter xmi:id="_O3YUcB-0EeqZTIBbWYNLhQ" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_O3YUcR-0EeqZTIBbWYNLhQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_PJFIcB-0EeqZTIBbWYNLhQ" name="save" method="_PJ2kgx-0EeqZTIBbWYNLhQ">
+              <ownedParameter xmi:id="_PJFIcR-0EeqZTIBbWYNLhQ" name="emp" type="_O3iFcB-0EeqZTIBbWYNLhQ"/>
+              <ownedParameter xmi:id="_PJFvgB-0EeqZTIBbWYNLhQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_PJILwB-0EeqZTIBbWYNLhQ" name="editsave" method="_PJ4ZsB-0EeqZTIBbWYNLhQ">
+              <ownedParameter xmi:id="_PJILwR-0EeqZTIBbWYNLhQ" name="emp" type="_O3iFcB-0EeqZTIBbWYNLhQ"/>
+              <ownedParameter xmi:id="_PJIy0B-0EeqZTIBbWYNLhQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_PJR8wB-0EeqZTIBbWYNLhQ" name="showform" method="_PJ2kgB-0EeqZTIBbWYNLhQ">
+              <ownedParameter xmi:id="_PJR8wR-0EeqZTIBbWYNLhQ" name="m" type="_PI8lkB-0EeqZTIBbWYNLhQ"/>
+              <ownedParameter xmi:id="_PJSj0B-0EeqZTIBbWYNLhQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_PJVAEB-0EeqZTIBbWYNLhQ" name="viewemp" method="_PJ3Lkh-0EeqZTIBbWYNLhQ">
+              <ownedParameter xmi:id="_PJVAER-0EeqZTIBbWYNLhQ" name="m" type="_PI8lkB-0EeqZTIBbWYNLhQ"/>
+              <ownedParameter xmi:id="_PJVnIB-0EeqZTIBbWYNLhQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_PJW1QR-0EeqZTIBbWYNLhQ" name="edit" method="_PJ3yoB-0EeqZTIBbWYNLhQ">
+              <ownedParameter xmi:id="_PJW1Qh-0EeqZTIBbWYNLhQ" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_PJXcUB-0EeqZTIBbWYNLhQ" name="m" type="_PI8lkB-0EeqZTIBbWYNLhQ"/>
+              <ownedParameter xmi:id="_PJXcUR-0EeqZTIBbWYNLhQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_PKEm8R-0EeqZTIBbWYNLhQ" name="" memberEnd="_PKEm8h-0EeqZTIBbWYNLhQ _PJcU0B-0EeqZTIBbWYNLhQ">
+            <ownedEnd xmi:id="_PKEm8h-0EeqZTIBbWYNLhQ" name="" type="_O3SN0B-0EeqZTIBbWYNLhQ" association="_PKEm8R-0EeqZTIBbWYNLhQ"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_O2PsAB-0EeqZTIBbWYNLhQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_O2QTEB-0EeqZTIBbWYNLhQ" name="sql">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_PInOYB-0EeqZTIBbWYNLhQ" name="ResultSet"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_PIpqoB-0EeqZTIBbWYNLhQ" name="SQLException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_O2Q6IB-0EeqZTIBbWYNLhQ" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_PIsG4B-0EeqZTIBbWYNLhQ" name="List"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_O2Q6IR-0EeqZTIBbWYNLhQ" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_O2RhMB-0EeqZTIBbWYNLhQ" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_O2RhMR-0EeqZTIBbWYNLhQ" name="jdbc">
+          <packagedElement xmi:type="uml:Package" xmi:id="_O2RhMh-0EeqZTIBbWYNLhQ" name="core">
+            <packagedElement xmi:type="uml:Class" xmi:id="_PIt8EB-0EeqZTIBbWYNLhQ" name="BeanPropertyRowMapper"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_PIvKMR-0EeqZTIBbWYNLhQ" name="JdbcTemplate"/>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_PIwYUR-0EeqZTIBbWYNLhQ" name="RowMapper"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_O2ducB-0EeqZTIBbWYNLhQ" name="beans">
+          <packagedElement xmi:type="uml:Package" xmi:id="_O2ducR-0EeqZTIBbWYNLhQ" name="factory">
+            <packagedElement xmi:type="uml:Package" xmi:id="_O2duch-0EeqZTIBbWYNLhQ" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_PI4UIB-0EeqZTIBbWYNLhQ" name="Autowired"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_O2eVgB-0EeqZTIBbWYNLhQ" name="stereotype">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_PI6wYB-0EeqZTIBbWYNLhQ" name="Controller"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_O2eVgR-0EeqZTIBbWYNLhQ" name="ui">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_PI8lkB-0EeqZTIBbWYNLhQ" name="Model"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_O2e8kB-0EeqZTIBbWYNLhQ" name="web">
+          <packagedElement xmi:type="uml:Package" xmi:id="_O2e8kR-0EeqZTIBbWYNLhQ" name="bind">
+            <packagedElement xmi:type="uml:Package" xmi:id="_O2e8kh-0EeqZTIBbWYNLhQ" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_PI-awR-0EeqZTIBbWYNLhQ" name="ModelAttribute"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_PJAP8R-0EeqZTIBbWYNLhQ" name="PathVariable"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_PJBeER-0EeqZTIBbWYNLhQ" name="RequestMapping"/>
+              <packagedElement xmi:type="uml:Enumeration" xmi:id="_PJCsMR-0EeqZTIBbWYNLhQ" name="RequestMethod"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_Oc4w0B-0EeqZTIBbWYNLhQ">
+      <eAnnotations xmi:id="_OdTAgB-0EeqZTIBbWYNLhQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_OdvFYB-0EeqZTIBbWYNLhQ" base_Package="_NAqqcB-0EeqZTIBbWYNLhQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_O3Tb8B-0EeqZTIBbWYNLhQ" base_Element="_O3SN0B-0EeqZTIBbWYNLhQ"/>
+  <UMLLabProfile:Annotations xmi:id="_O3ZikB-0EeqZTIBbWYNLhQ" base_Element="_O3YUcB-0EeqZTIBbWYNLhQ">
+    <annotations xmi:id="_O3ZikR-0EeqZTIBbWYNLhQ" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_O3aJoB-0EeqZTIBbWYNLhQ" base_Element="_O3XtYB-0EeqZTIBbWYNLhQ">
+    <annotations xmi:id="_O3aJoR-0EeqZTIBbWYNLhQ" name="RequestMapping">
+      <annotationParameters xmi:id="_O3aJoh-0EeqZTIBbWYNLhQ" name="value" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_PJ8rIB-0EeqZTIBbWYNLhQ" value="&quot;/deleteemp/{id}&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_O3awsB-0EeqZTIBbWYNLhQ" name="method" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_PJ8rIR-0EeqZTIBbWYNLhQ" value="RequestMethod.GET"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_O3bXwB-0EeqZTIBbWYNLhQ" base_Element="_O3SN0B-0EeqZTIBbWYNLhQ">
+    <annotations xmi:id="_O3bXwR-0EeqZTIBbWYNLhQ" name="Controller"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_PIpDkB-0EeqZTIBbWYNLhQ" base_Element="_PInOYB-0EeqZTIBbWYNLhQ"/>
+  <UMLLabProfile:Reference xmi:id="_PIrf0B-0EeqZTIBbWYNLhQ" base_Element="_PIpqoB-0EeqZTIBbWYNLhQ"/>
+  <UMLLabProfile:Reference xmi:id="_PItVAB-0EeqZTIBbWYNLhQ" base_Element="_PIsG4B-0EeqZTIBbWYNLhQ"/>
+  <UMLLabProfile:Reference xmi:id="_PIvKMB-0EeqZTIBbWYNLhQ" base_Element="_PIt8EB-0EeqZTIBbWYNLhQ"/>
+  <UMLLabProfile:Reference xmi:id="_PIwYUB-0EeqZTIBbWYNLhQ" base_Element="_PIvKMR-0EeqZTIBbWYNLhQ"/>
+  <UMLLabProfile:Reference xmi:id="_PIxmcB-0EeqZTIBbWYNLhQ" base_Element="_PIwYUR-0EeqZTIBbWYNLhQ"/>
+  <UMLLabProfile:Reference xmi:id="_PI6JUB-0EeqZTIBbWYNLhQ" base_Element="_PI4UIB-0EeqZTIBbWYNLhQ"/>
+  <UMLLabProfile:Reference xmi:id="_PI7-gB-0EeqZTIBbWYNLhQ" base_Element="_PI6wYB-0EeqZTIBbWYNLhQ"/>
+  <UMLLabProfile:Reference xmi:id="_PI-awB-0EeqZTIBbWYNLhQ" base_Element="_PI8lkB-0EeqZTIBbWYNLhQ"/>
+  <UMLLabProfile:Reference xmi:id="_PJAP8B-0EeqZTIBbWYNLhQ" base_Element="_PI-awR-0EeqZTIBbWYNLhQ"/>
+  <UMLLabProfile:Reference xmi:id="_PJBeEB-0EeqZTIBbWYNLhQ" base_Element="_PJAP8R-0EeqZTIBbWYNLhQ"/>
+  <UMLLabProfile:Reference xmi:id="_PJCsMB-0EeqZTIBbWYNLhQ" base_Element="_PJBeER-0EeqZTIBbWYNLhQ"/>
+  <UMLLabProfile:Reference xmi:id="_PJEhYB-0EeqZTIBbWYNLhQ" base_Element="_PJCsMR-0EeqZTIBbWYNLhQ"/>
+  <UMLLabProfile:Annotations xmi:id="_PJGWkB-0EeqZTIBbWYNLhQ" base_Element="_PJFIcR-0EeqZTIBbWYNLhQ">
+    <annotations xmi:id="_PJGWkR-0EeqZTIBbWYNLhQ" name="ModelAttribute">
+      <annotationParameters xmi:id="_PJGWkh-0EeqZTIBbWYNLhQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_PJ7dAB-0EeqZTIBbWYNLhQ" value="&quot;emp&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_PJG9oB-0EeqZTIBbWYNLhQ" base_Element="_PJFIcB-0EeqZTIBbWYNLhQ">
+    <annotations xmi:id="_PJG9oR-0EeqZTIBbWYNLhQ" name="RequestMapping">
+      <annotationParameters xmi:id="_PJG9oh-0EeqZTIBbWYNLhQ" name="value" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_PJ618B-0EeqZTIBbWYNLhQ" value="&quot;/save&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_PJHksB-0EeqZTIBbWYNLhQ" name="method" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_PJ618R-0EeqZTIBbWYNLhQ" value="RequestMethod.POST"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_PJKA8B-0EeqZTIBbWYNLhQ" base_Element="_PJILwR-0EeqZTIBbWYNLhQ">
+    <annotations xmi:id="_PJKA8R-0EeqZTIBbWYNLhQ" name="ModelAttribute">
+      <annotationParameters xmi:id="_PJKA8h-0EeqZTIBbWYNLhQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_PJ8EEh-0EeqZTIBbWYNLhQ" value="&quot;emp&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_PJKoAB-0EeqZTIBbWYNLhQ" base_Element="_PJILwB-0EeqZTIBbWYNLhQ">
+    <annotations xmi:id="_PJLPEB-0EeqZTIBbWYNLhQ" name="RequestMapping">
+      <annotationParameters xmi:id="_PJLPER-0EeqZTIBbWYNLhQ" name="value" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_PJ8EEB-0EeqZTIBbWYNLhQ" value="&quot;/editsave&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_PJLPEh-0EeqZTIBbWYNLhQ" name="method" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_PJ8EER-0EeqZTIBbWYNLhQ" value="RequestMethod.POST"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_PJTx8B-0EeqZTIBbWYNLhQ" base_Element="_PJR8wB-0EeqZTIBbWYNLhQ">
+    <annotations xmi:id="_PJTx8R-0EeqZTIBbWYNLhQ" name="RequestMapping">
+      <annotationParameters xmi:id="_PJTx8h-0EeqZTIBbWYNLhQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_PJ6O4B-0EeqZTIBbWYNLhQ" value="&quot;/empform&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_PJWOMB-0EeqZTIBbWYNLhQ" base_Element="_PJVAEB-0EeqZTIBbWYNLhQ">
+    <annotations xmi:id="_PJWOMR-0EeqZTIBbWYNLhQ" name="RequestMapping">
+      <annotationParameters xmi:id="_PJW1QB-0EeqZTIBbWYNLhQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_PJ7dAR-0EeqZTIBbWYNLhQ" value="&quot;/viewemp&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_PJYDYB-0EeqZTIBbWYNLhQ" base_Element="_PJW1Qh-0EeqZTIBbWYNLhQ">
+    <annotations xmi:id="_PJYDYR-0EeqZTIBbWYNLhQ" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_PJYqcB-0EeqZTIBbWYNLhQ" base_Element="_PJW1QR-0EeqZTIBbWYNLhQ">
+    <annotations xmi:id="_PJYqcR-0EeqZTIBbWYNLhQ" name="RequestMapping">
+      <annotationParameters xmi:id="_PJYqch-0EeqZTIBbWYNLhQ" name="value" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_PJ7dAh-0EeqZTIBbWYNLhQ" value="&quot;/editemp/{id}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PJbtwB-0EeqZTIBbWYNLhQ" base_Element="_PJafoB-0EeqZTIBbWYNLhQ"/>
+  <UMLLabProfile:Annotations xmi:id="_PJc74B-0EeqZTIBbWYNLhQ" base_Element="_PJcU0B-0EeqZTIBbWYNLhQ">
+    <annotations xmi:id="_PJdi8B-0EeqZTIBbWYNLhQ" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_PKEm8B-0EeqZTIBbWYNLhQ" base_Element="_PKCxwB-0EeqZTIBbWYNLhQ"/>
+  <UMLLabProfile:Reference xmi:id="_PKF1EB-0EeqZTIBbWYNLhQ" base_Element="_PKEm8R-0EeqZTIBbWYNLhQ"/>
+</xmi:XMI>

@@ -54,6 +54,6 @@
     
   </dependencies>
   <build>
-    <finalName>SpringMVCPagination</finalName>
+    <finalName>CadastroDeFuncionarios</finalName>
   </build>
 </project>
